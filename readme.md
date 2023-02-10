@@ -10,4 +10,8 @@
 <li>matplotlib.color (Pra usar as cores da logo da empresa)</li>
 <li>os</li>
 </ul>
-<p>O código para instalar as bibliotecas estão comentados no inicio do código, se necessário, rode essa parte primeiro </p>
+<p>Talvez seja necessário instalar algumas das bibliotecas, rode os codigos abaixo para isso:</p>
+...
+! pip install pymupdf
+! pip install wordcloud
+...
