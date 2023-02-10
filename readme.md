@@ -11,6 +11,7 @@
 <li>os</li>
 </ul>
 <p>Talvez seja necessário instalar algumas das bibliotecas, rode os codigos abaixo para isso:</p>
+
 ```
 ! pip install pymupdf
 ! pip install wordcloud
