@@ -16,3 +16,6 @@
 ! pip install pymupdf
 ! pip install wordcloud
 ```
+
+<h3>Projeto Jogo da Forca </h3>
+<p>Jogo criado no curso de Python da Alura</p>
