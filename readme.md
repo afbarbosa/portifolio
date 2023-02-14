@@ -19,3 +19,14 @@
 
 <h3>Projeto Jogo da Forca </h3>
 <p>Jogo criado no curso de Python da Alura</p>
+
+
+<h3>Machine Learning para prever a sobrevivencia no Titanic</h3>
+<p>Desafio do Kaggle que usa Random Forest para tentar prever se uma pessoa sobreviveria ao naufragio do Titanic.</p>
+<ul>
+<li>pandas</li>
+<li>statistics/li>
+<li>RandomForestClassifier do sklearn.ensemble</li>
+<li>accuracy_score, confusion_matrix, classification_report do sklearn.metrics</li>
+<li>train_test_split do sklearn.model_selection</li>
+</ul>
