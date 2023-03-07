@@ -1,9 +1,9 @@
 class Conta:
     def __init__(self, numero, titular, saldo, limite):
-        Conta.__numero = numero
-        Conta.__titular = titular
-        Conta.__saldo = saldo
-        Conta.__limite = limite
+        self.__numero = numero
+        self.__titular = titular
+        self.__saldo = saldo
+        self.__limite = limite
         
     def extrato (self):
         print("O valor do extrato é {}".format(self.__saldo))
