@@ -8,8 +8,15 @@ class Conta:
     def extrato (self):
         print("O valor do extrato é {}".format(self.__saldo))
     
+    def __pode_sacar(self, valor_sacar):
+        valor_total = self.__saldo + self.__limite
+        return valor_sacar < valor_total
+    
     def saque (self, valor):
-        self.__saldo -= valor
+        if(self.__pode_sacar(valor)):
+            self.__saldo -= valor
+        else:
+            print("Seu limite de saque é {}".format((self.__limite + self.__saldo)))
         
     def deposita (self, valor):
         self.__saldo += valor
@@ -17,6 +24,10 @@ class Conta:
     def transfere (self, valor, destino):
         self.saca(valor)
         destino.deposita(valor)
+    
+    @property
+    def numero(self):
+        return self.__numero
         
     @property
     def saldo(self):
@@ -44,4 +55,4 @@ class Conta:
         
     @staticmethod
     def codigos_bancos ():
-        return {"Banco do Brasil", "001", "Caixa Econômica", "104","Bradesco","237","Nubank","266"}
+        return {"Banco do Brasil": "001", "Caixa Econômica": "104","Bradesco":"237","Nubank":"266"}
