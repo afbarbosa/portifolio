@@ -17,3 +17,31 @@ class Conta:
     def transfere (self, valor, destino):
         self.saca(valor)
         destino.deposita(valor)
+        
+    @property
+    def saldo(self):
+        return self.__saldo
+    
+    @property
+    def titular(self):
+        return self.__titular
+    
+    @property
+    def limite(self):
+        return self.__limite
+    
+    @saldo.setter
+    def saldo(self, saldo):
+        self.__saldo = saldo
+        
+    @titular.setter
+    def titular(self, titular):
+        self.__titular = titular
+    
+    @limite.setter
+    def limite(self, limite):
+        self.__limite = limite 
+        
+    @staticmethod
+    def codigos_bancos ():
+        return {"Banco do Brasil", "001", "Caixa Econômica", "104","Bradesco","237","Nubank","266"}
