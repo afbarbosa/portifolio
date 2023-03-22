@@ -1,0 +1,43 @@
+.cabecalho {
+    /*background-image: url('Images/Cabeçalho.jpg');*/
+    border-bottom:solid ;
+    border-color: #46d519;
+    border-width: 7px;
+    height: 70px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.cabecalho_esquerda {
+    background-image: url('Images/Cabeçalho_esquerda.jpg');
+    float:left;
+    width: 50px;
+    overflow: auto;
+}
+
+.cabecalho_direita {
+    background-image: url('Images/Cabeçalho_direita.jpg');
+    float:right;
+    width: 203px;
+    overflow: auto;
+}
+
+.cabecalho_titulo {
+    float: left;
+    display: block;
+}
+
+.cabecalho_titulo h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color:#2e363b;
+    font-family: segoe UI-MONOSPACE;
+    text-align: center;
+}
+
+
+/*
+Cores principais
+Branco: #fff
+Verde: #46d519
+Preto: #2e363b
