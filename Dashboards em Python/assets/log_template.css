@@ -8,18 +8,19 @@
     width: 100%;
 }
 
+.cabecalho Table {
+    width: 100%;
+    height: 70px;
+}
+
 .cabecalho_esquerda {
     background-image: url('Images/Cabeçalho_esquerda.jpg');
-    float:left;
     width: 50px;
-    overflow: auto;
 }
 
 .cabecalho_direita {
     background-image: url('Images/Cabeçalho_direita.jpg');
-    float:right;
     width: 203px;
-    overflow: auto;
 }
 
 .cabecalho_titulo {
@@ -27,7 +28,7 @@
     display: block;
 }
 
-.cabecalho_titulo h1 {
+.cabecalho h1 {
     font-size: 30px;
     font-weight: bold;
     color:#2e363b;
