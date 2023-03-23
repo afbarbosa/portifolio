@@ -36,6 +36,35 @@
     text-align: center;
 }
 
+.visualizador {
+    padding: 10px;
+    margin: 10px;
+    overflow: auto;
+    display: block;
+    border:1px solid  #969696;
+    max-height: 650px;
+    border-radius: 5px;
+}
+
+.duas_colunas {
+    width:50%;
+    float: left;
+}
+
+.tres_colunas {
+    width:33%;
+    float: left;
+}
+
+.quatro_colunas {
+    width:25%;
+    float: left;
+}
+
+.cinco_colunas {
+    width:20%;
+    float: left;
+}
 
 /*
 Cores principais
