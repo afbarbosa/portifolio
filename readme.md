@@ -17,8 +17,10 @@
 ! pip install wordcloud
 ```
 
-<h3>Projeto Jogo da Forca </h3>
-<p>Jogo criado no curso de Python da Alura</p>
+<h3>Classificador Oftalmologia</h3>
+<p>Separa procedimentos médicos que são referentes a oftalmologia de outras especialidades. <br/> 
+Foi feito para acelerar os relatórios de agendas ofertadas ao SUS.
+</p>
 
 
 <h3>Machine Learning para prever a sobrevivencia no Titanic</h3>
@@ -30,3 +32,9 @@
 <li>accuracy_score, confusion_matrix, classification_report do sklearn.metrics</li>
 <li>train_test_split do sklearn.model_selection</li>
 </ul>
+
+
+<h3>F1 rede neural</h3>
+<p>Feito para o TCC de Data Science e Analytics da USP<br/> 
+O intuito era prever o grid de largada de monza 2024. Porém devido a poucas informações e a competitividade da F1 não foi possível prever corretamente, porém o erro do tempo previsto é de menos de 5% (ou 4 segundos), porém é muito para um F1 onde o primeiro e o ultimo estão em uma diferença de 1 segundo
+</p>
